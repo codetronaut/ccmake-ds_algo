@@ -1,0 +1,2 @@
+/home/codetronaut/Downloads/assign_progs/proj/build/CMakeFiles/rebuild_cache.dir
+/home/codetronaut/Downloads/assign_progs/proj/build/CMakeFiles/edit_cache.dir
