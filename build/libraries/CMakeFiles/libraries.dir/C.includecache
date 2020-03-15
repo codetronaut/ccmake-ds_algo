@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/codetronaut/root_cernv7/assign_progs/proj/libraries/src/libraries/circular_queue.c
+stdio.h
+-
+libr.h
+/home/codetronaut/root_cernv7/assign_progs/proj/libraries/src/libraries/libr.h
+
+/home/codetronaut/root_cernv7/assign_progs/proj/libraries/src/libraries/general_queue.c
+stdio.h
+-
+libr.h
+/home/codetronaut/root_cernv7/assign_progs/proj/libraries/src/libraries/libr.h
+
+/home/codetronaut/root_cernv7/assign_progs/proj/libraries/src/libraries/libr.h
+

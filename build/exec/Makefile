@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles /home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/codetronaut/root_cernv7/assign_progs/proj/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles /home/codetronaut/root_cernv7/assign_progs/proj/build/exec/CMakeFiles/progress.marks
+	cd /home/codetronaut/root_cernv7/assign_progs/proj/build && $(MAKE) -f CMakeFiles/Makefile2 exec/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/codetronaut/root_cernv7/assign_progs/proj/build && $(MAKE) -f CMakeFiles/Makefile2 exec/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,44 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/codetronaut/root_cernv7/assign_progs/proj/build && $(MAKE) -f CMakeFiles/Makefile2 exec/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/codetronaut/root_cernv7/assign_progs/proj/build && $(MAKE) -f CMakeFiles/Makefile2 exec/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/codetronaut/root_cernv7/assign_progs/proj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named libraries
+# Convenience name for target.
+exec/CMakeFiles/proj.dir/rule:
+	cd /home/codetronaut/root_cernv7/assign_progs/proj/build && $(MAKE) -f CMakeFiles/Makefile2 exec/CMakeFiles/proj.dir/rule
+.PHONY : exec/CMakeFiles/proj.dir/rule
 
-# Build rule for target.
-libraries: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libraries
-.PHONY : libraries
+# Convenience name for target.
+proj: exec/CMakeFiles/proj.dir/rule
 
-# fast build rule for target.
-libraries/fast:
-	$(MAKE) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/build
-.PHONY : libraries/fast
-
-#=============================================================================
-# Target rules for targets named proj
-
-# Build rule for target.
-proj: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 proj
 .PHONY : proj
 
 # fast build rule for target.
 proj/fast:
-	$(MAKE) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/build
+	cd /home/codetronaut/root_cernv7/assign_progs/proj/build && $(MAKE) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/build
 .PHONY : proj/fast
+
+main.o: main.c.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	cd /home/codetronaut/root_cernv7/assign_progs/proj/build && $(MAKE) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	cd /home/codetronaut/root_cernv7/assign_progs/proj/build && $(MAKE) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	cd /home/codetronaut/root_cernv7/assign_progs/proj/build && $(MAKE) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -143,9 +159,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... libraries"
 	@echo "... proj"
+	@echo "... edit_cache"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -157,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/codetronaut/root_cernv7/assign_progs/proj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

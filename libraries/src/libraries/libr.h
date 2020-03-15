@@ -1,0 +1,10 @@
+void BST_NR();
+void circular_queue();
+void general_queue();
+void anagram();
+void binary_search_with_recur();
+void TBT();
+void stack_n();
+void AVL();
+void SLL();
+void DLL();

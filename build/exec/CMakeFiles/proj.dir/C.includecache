@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libraries/src/libraries/libr.h
+
+/home/codetronaut/root_cernv7/assign_progs/proj/exec/main.c
+stdio.h
+-
+stdlib.h
+-
+libraries/libr.h
+/home/codetronaut/root_cernv7/assign_progs/proj/exec/libraries/libr.h
+

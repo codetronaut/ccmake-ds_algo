@@ -65,39 +65,112 @@ CMAKE_SOURCE_DIR = /home/codetronaut/root_cernv7/assign_progs/proj
 CMAKE_BINARY_DIR = /home/codetronaut/root_cernv7/assign_progs/proj/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/proj.dir
+# Directory level rules for directory libraries
+
+# Convenience name for "all" pass in the directory.
+libraries/all: libraries/CMakeFiles/libraries.dir/all
+
+.PHONY : libraries/all
+
+# Convenience name for "clean" pass in the directory.
+libraries/clean: libraries/CMakeFiles/libraries.dir/clean
+
+.PHONY : libraries/clean
+
+# Convenience name for "preinstall" pass in the directory.
+libraries/preinstall:
+
+.PHONY : libraries/preinstall
+
+#=============================================================================
+# Target rules for target libraries/CMakeFiles/libraries.dir
 
 # All Build rule for target.
-CMakeFiles/proj.dir/all:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/depend
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles --progress-num=1,2,3 "Built target proj"
-.PHONY : CMakeFiles/proj.dir/all
+libraries/CMakeFiles/libraries.dir/all:
+	$(MAKE) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/depend
+	$(MAKE) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles --progress-num=1,2,3,4 "Built target libraries"
+.PHONY : libraries/CMakeFiles/libraries.dir/all
 
 # Include target in all.
-all: CMakeFiles/proj.dir/all
+all: libraries/CMakeFiles/libraries.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/proj.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/proj.dir/all
+libraries/CMakeFiles/libraries.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 libraries/CMakeFiles/libraries.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles 0
-.PHONY : CMakeFiles/proj.dir/rule
+.PHONY : libraries/CMakeFiles/libraries.dir/rule
 
 # Convenience name for target.
-proj: CMakeFiles/proj.dir/rule
+libraries: libraries/CMakeFiles/libraries.dir/rule
+
+.PHONY : libraries
+
+# clean rule for target.
+libraries/CMakeFiles/libraries.dir/clean:
+	$(MAKE) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/clean
+.PHONY : libraries/CMakeFiles/libraries.dir/clean
+
+# clean rule for target.
+clean: libraries/CMakeFiles/libraries.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory exec
+
+# Convenience name for "all" pass in the directory.
+exec/all: exec/CMakeFiles/proj.dir/all
+
+.PHONY : exec/all
+
+# Convenience name for "clean" pass in the directory.
+exec/clean: exec/CMakeFiles/proj.dir/clean
+
+.PHONY : exec/clean
+
+# Convenience name for "preinstall" pass in the directory.
+exec/preinstall:
+
+.PHONY : exec/preinstall
+
+#=============================================================================
+# Target rules for target exec/CMakeFiles/proj.dir
+
+# All Build rule for target.
+exec/CMakeFiles/proj.dir/all: libraries/CMakeFiles/libraries.dir/all
+	$(MAKE) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/depend
+	$(MAKE) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles --progress-num=5,6 "Built target proj"
+.PHONY : exec/CMakeFiles/proj.dir/all
+
+# Include target in all.
+all: exec/CMakeFiles/proj.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+exec/CMakeFiles/proj.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 exec/CMakeFiles/proj.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles 0
+.PHONY : exec/CMakeFiles/proj.dir/rule
+
+# Convenience name for target.
+proj: exec/CMakeFiles/proj.dir/rule
 
 .PHONY : proj
 
 # clean rule for target.
-CMakeFiles/proj.dir/clean:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/clean
-.PHONY : CMakeFiles/proj.dir/clean
+exec/CMakeFiles/proj.dir/clean:
+	$(MAKE) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/clean
+.PHONY : exec/CMakeFiles/proj.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/proj.dir/clean
+clean: exec/CMakeFiles/proj.dir/clean
 
 .PHONY : clean
 
