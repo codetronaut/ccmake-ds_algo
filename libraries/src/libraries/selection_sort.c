@@ -1,6 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
-int main()
+
+#include "libr.h"
+
+void selection_sort()
 {
     int n,i,j,min,temp,a[100];
     printf("Enter value of n: ");

@@ -1,5 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
+
+#include "libr.h"
+
 char in[30],post[30],stk[30],ch,ch1;
 int top=-1,i=0,j=0;
 
@@ -7,7 +9,7 @@ void push(char);
 char pop();
 int prior(char);
 
-void main()
+void in_to_post()
 {
     printf("Enter Infix Expression: ");
     scanf("%s", &in);

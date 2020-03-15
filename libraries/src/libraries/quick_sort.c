@@ -1,10 +1,11 @@
 #include<stdio.h>
-#include<conio.h>
+
+#include "libr.h"
 
 void quick_sort(int[],int,int);
 int partition(int[],int,int);
 
-int main()
+int quick_sort()
 {
 	int a[30],n,i;
 	printf("Enter number of elements: ");

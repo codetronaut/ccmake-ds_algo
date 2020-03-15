@@ -41,6 +41,7 @@ int main(void)
     printf("Press 17 for Bubble Sort\n"); 
     printf("Press 18 for Quick Sort\n"); 
     printf("Press 19 for Insertion Sort\n"); 
+    printf("Press 20 for Shell Sort\n");
     
 
 
@@ -92,12 +93,12 @@ int main(void)
     } 
     case 6: { 
         printf("Infix to Postfix\n"); 
-
+        in_to_post();
         break; 
     }     
     case 7: { 
         printf("Infix to Prefix\n"); 
-
+        in_to_pre();
         break; 
     }
     case 8:{
@@ -107,7 +108,7 @@ int main(void)
     }    
     case 9: { 
         printf("Binary Search Tree(Recursive)\n"); 
-        binary_search_with_recur();
+        binary_search_with_recur();    
         break; 
     } 
     case 10: { 
@@ -127,7 +128,7 @@ int main(void)
     } 
     case 13: { 
         printf("Depth First Search(DFS)\n"); 
-        
+
         break; 
     } 
     case 14: { 
@@ -143,11 +144,12 @@ int main(void)
     case 16:{
         
         printf("Selection Sort\n"); 
+        selection_sort();
         break;
     }    
     case 17: { 
         printf("Bubble Sort\n"); 
-
+        bubble_sort();
         break; 
     } 
     case 18: { 
@@ -157,9 +159,14 @@ int main(void)
     } 
     case 19: { 
         printf("Insertion Sort\n"); 
-
+        insertion_sort();
         break; 
     }   
+    case 20: { 
+        printf("Shell Sort\n"); 
+        ShellSort();
+        break; 
+    }      
     default: 
         printf("wrong Input\n"); 
         break;

@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+#include "libr.h"
+
 void swap(int *x,int *y)
 {    int temp=*x;
     *x=*y;
@@ -22,7 +24,7 @@ void ShellSort(int A[],int n)
     }
 }
 
-int main()
+void ShellSort()
 {
    int A[]={11,13,7,12,16,9,24,5,10,3},n=10,i;
    SellSort(A,n);
@@ -31,5 +33,6 @@ int main()
     printf("%d ",A[i]);
    }
     printf("\n");
-    return 0;
+    
+    
 }

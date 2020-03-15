@@ -1,6 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
-int main()
+
+#include "libr.h"
+
+void insertion_sort()
 {
     int a[100],n,i,j,temp;
     printf("Enter value of n: ");

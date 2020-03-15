@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+#include "libr.h"
+
 char inf[30],post[30],stk[30],ch,ch1;
 int top = -1, i = 0, j = 0;
 
@@ -36,7 +38,7 @@ int prio(char ch2)
 		return 0;
 }
 
-int main()
+void in_to_pre()
 {
 	printf("Enter the Infix Expression: ");
 	scanf("%s",&inf);

@@ -1,5 +1,8 @@
 #include<stdio.h>
-main()
+
+#include "libr.h"
+
+void bubble_sort()
 {
     int a[10],i,j,temp,n;
     printf("Enter the no.of Elements to Sort: \n");
