@@ -123,32 +123,32 @@ proj/fast:
 	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/build
 .PHONY : proj/fast
 
-libr.o: libr.c.o
+BST_non_recursive.o: BST_non_recursive.c.o
 
-.PHONY : libr.o
+.PHONY : BST_non_recursive.o
 
 # target to build an object file
-libr.c.o:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/libr.c.o
-.PHONY : libr.c.o
+BST_non_recursive.c.o:
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/BST_non_recursive.c.o
+.PHONY : BST_non_recursive.c.o
 
-libr.i: libr.c.i
+BST_non_recursive.i: BST_non_recursive.c.i
 
-.PHONY : libr.i
+.PHONY : BST_non_recursive.i
 
 # target to preprocess a source file
-libr.c.i:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/libr.c.i
-.PHONY : libr.c.i
+BST_non_recursive.c.i:
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/BST_non_recursive.c.i
+.PHONY : BST_non_recursive.c.i
 
-libr.s: libr.c.s
+BST_non_recursive.s: BST_non_recursive.c.s
 
-.PHONY : libr.s
+.PHONY : BST_non_recursive.s
 
 # target to generate assembly for a file
-libr.c.s:
-	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/libr.c.s
-.PHONY : libr.c.s
+BST_non_recursive.c.s:
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/BST_non_recursive.c.s
+.PHONY : BST_non_recursive.c.s
 
 main.o: main.c.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... proj"
 	@echo "... edit_cache"
-	@echo "... libr.o"
-	@echo "... libr.i"
-	@echo "... libr.s"
+	@echo "... BST_non_recursive.o"
+	@echo "... BST_non_recursive.i"
+	@echo "... BST_non_recursive.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

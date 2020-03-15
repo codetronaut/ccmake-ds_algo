@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/codetronaut/root_cernv7/assign_progs/proj/libr.c
-stdio.h
--
-libr.h
 /home/codetronaut/root_cernv7/assign_progs/proj/libr.h
 
+/home/codetronaut/root_cernv7/assign_progs/proj/main.c
+stdio.h
+-
+stdlib.h
+-
+libr.h
 /home/codetronaut/root_cernv7/assign_progs/proj/libr.h
 

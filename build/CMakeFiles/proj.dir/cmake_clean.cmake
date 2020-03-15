@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/proj.dir/main.c.o"
-  "CMakeFiles/proj.dir/libr.c.o"
+  "CMakeFiles/proj.dir/BST_non_recursive.c.o"
   "proj.pdb"
   "proj"
 )

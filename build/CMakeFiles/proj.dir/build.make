@@ -70,29 +70,29 @@ CMakeFiles/proj.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/proj.dir/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/root_cernv7/assign_progs/proj/main.c -o CMakeFiles/proj.dir/main.c.s
 
-CMakeFiles/proj.dir/libr.c.o: CMakeFiles/proj.dir/flags.make
-CMakeFiles/proj.dir/libr.c.o: ../libr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/proj.dir/libr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/proj.dir/libr.c.o   -c /home/codetronaut/root_cernv7/assign_progs/proj/libr.c
+CMakeFiles/proj.dir/BST_non_recursive.c.o: CMakeFiles/proj.dir/flags.make
+CMakeFiles/proj.dir/BST_non_recursive.c.o: ../BST_non_recursive.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/proj.dir/BST_non_recursive.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/proj.dir/BST_non_recursive.c.o   -c /home/codetronaut/root_cernv7/assign_progs/proj/BST_non_recursive.c
 
-CMakeFiles/proj.dir/libr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/proj.dir/libr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/root_cernv7/assign_progs/proj/libr.c > CMakeFiles/proj.dir/libr.c.i
+CMakeFiles/proj.dir/BST_non_recursive.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/proj.dir/BST_non_recursive.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/root_cernv7/assign_progs/proj/BST_non_recursive.c > CMakeFiles/proj.dir/BST_non_recursive.c.i
 
-CMakeFiles/proj.dir/libr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/proj.dir/libr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/root_cernv7/assign_progs/proj/libr.c -o CMakeFiles/proj.dir/libr.c.s
+CMakeFiles/proj.dir/BST_non_recursive.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/proj.dir/BST_non_recursive.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/root_cernv7/assign_progs/proj/BST_non_recursive.c -o CMakeFiles/proj.dir/BST_non_recursive.c.s
 
 # Object files for target proj
 proj_OBJECTS = \
 "CMakeFiles/proj.dir/main.c.o" \
-"CMakeFiles/proj.dir/libr.c.o"
+"CMakeFiles/proj.dir/BST_non_recursive.c.o"
 
 # External object files for target proj
 proj_EXTERNAL_OBJECTS =
 
 proj: CMakeFiles/proj.dir/main.c.o
-proj: CMakeFiles/proj.dir/libr.c.o
+proj: CMakeFiles/proj.dir/BST_non_recursive.c.o
 proj: CMakeFiles/proj.dir/build.make
 proj: CMakeFiles/proj.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable proj"

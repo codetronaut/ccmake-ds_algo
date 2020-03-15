@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/codetronaut/root_cernv7/assign_progs/proj/libr.c" "/home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles/proj.dir/libr.c.o"
+  "/home/codetronaut/root_cernv7/assign_progs/proj/BST_non_recursive.c" "/home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles/proj.dir/BST_non_recursive.c.o"
   "/home/codetronaut/root_cernv7/assign_progs/proj/main.c" "/home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles/proj.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

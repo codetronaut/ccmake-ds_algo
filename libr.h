@@ -1,1 +1,1 @@
-void libr();
+void BST_NR();
