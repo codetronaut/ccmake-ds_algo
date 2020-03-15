@@ -1,2 +1,9 @@
-#include<stdio.h>
-int main(void){ printf("Hello World:)");}
+# include <stdio.h>
+#include "libr.h"
+
+int main(void)
+{
+        libr();
+        return 0;
+        
+}

@@ -59,10 +59,47 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/codetronaut/Downloads/assign_progs/proj
+CMAKE_SOURCE_DIR = /home/codetronaut/root_cernv7/assign_progs/proj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/codetronaut/Downloads/assign_progs/proj/build
+CMAKE_BINARY_DIR = /home/codetronaut/root_cernv7/assign_progs/proj/build
+
+#=============================================================================
+# Target rules for target CMakeFiles/proj.dir
+
+# All Build rule for target.
+CMakeFiles/proj.dir/all:
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/depend
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles --progress-num=1,2,3 "Built target proj"
+.PHONY : CMakeFiles/proj.dir/all
+
+# Include target in all.
+all: CMakeFiles/proj.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/proj.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/proj.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/root_cernv7/assign_progs/proj/build/CMakeFiles 0
+.PHONY : CMakeFiles/proj.dir/rule
+
+# Convenience name for target.
+proj: CMakeFiles/proj.dir/rule
+
+.PHONY : proj
+
+# clean rule for target.
+CMakeFiles/proj.dir/clean:
+	$(MAKE) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/clean
+.PHONY : CMakeFiles/proj.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/proj.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

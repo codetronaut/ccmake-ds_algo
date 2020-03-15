@@ -1,4 +1,4 @@
-# Install script for directory: /home/codetronaut/Downloads/assign_progs/proj
+# Install script for directory: /home/codetronaut/root_cernv7/assign_progs/proj
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/codetronaut/Downloads/assign_progs/proj/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/codetronaut/root_cernv7/assign_progs/proj/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
