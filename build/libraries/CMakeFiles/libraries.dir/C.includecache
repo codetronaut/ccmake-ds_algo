@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/codetronaut/root_cernv7/assign_progs/proj/libraries/src/libraries/BST_non_recursive.c
+stdio.h
+-
+stdlib.h
+-
+malloc.h
+-
+libr.h
+/home/codetronaut/root_cernv7/assign_progs/proj/libraries/src/libraries/libr.h
+
 /home/codetronaut/root_cernv7/assign_progs/proj/libraries/src/libraries/circular_queue.c
 stdio.h
 -
