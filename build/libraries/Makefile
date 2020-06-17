@@ -68,10 +68,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/codetronaut/Desktop/work/testing/combined_c_proj-master
+CMAKE_SOURCE_DIR = /home/codetronaut/Desktop/work/combined_c_proj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build
+CMAKE_BINARY_DIR = /home/codetronaut/Desktop/work/combined_c_proj/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/CMakeFiles /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries/CMakeFiles/progress.marks
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/CMakeFiles 0
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/Desktop/work/combined_c_proj/build/CMakeFiles /home/codetronaut/Desktop/work/combined_c_proj/build/libraries/CMakeFiles/progress.marks
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/Desktop/work/combined_c_proj/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/clean
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/preinstall
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/preinstall
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libraries/CMakeFiles/libraries.dir/rule:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/CMakeFiles/libraries.dir/rule
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/CMakeFiles/libraries.dir/rule
 .PHONY : libraries/CMakeFiles/libraries.dir/rule
 
 # Convenience name for target.
@@ -142,7 +142,7 @@ libraries: libraries/CMakeFiles/libraries.dir/rule
 
 # fast build rule for target.
 libraries/fast:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/build
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/build
 .PHONY : libraries/fast
 
 src/libraries/AVL.o: src/libraries/AVL.c.o
@@ -151,7 +151,7 @@ src/libraries/AVL.o: src/libraries/AVL.c.o
 
 # target to build an object file
 src/libraries/AVL.c.o:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/AVL.c.o
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/AVL.c.o
 .PHONY : src/libraries/AVL.c.o
 
 src/libraries/AVL.i: src/libraries/AVL.c.i
@@ -160,7 +160,7 @@ src/libraries/AVL.i: src/libraries/AVL.c.i
 
 # target to preprocess a source file
 src/libraries/AVL.c.i:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/AVL.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/AVL.c.i
 .PHONY : src/libraries/AVL.c.i
 
 src/libraries/AVL.s: src/libraries/AVL.c.s
@@ -169,7 +169,7 @@ src/libraries/AVL.s: src/libraries/AVL.c.s
 
 # target to generate assembly for a file
 src/libraries/AVL.c.s:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/AVL.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/AVL.c.s
 .PHONY : src/libraries/AVL.c.s
 
 src/libraries/TBT.o: src/libraries/TBT.c.o
@@ -178,7 +178,7 @@ src/libraries/TBT.o: src/libraries/TBT.c.o
 
 # target to build an object file
 src/libraries/TBT.c.o:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/TBT.c.o
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/TBT.c.o
 .PHONY : src/libraries/TBT.c.o
 
 src/libraries/TBT.i: src/libraries/TBT.c.i
@@ -187,7 +187,7 @@ src/libraries/TBT.i: src/libraries/TBT.c.i
 
 # target to preprocess a source file
 src/libraries/TBT.c.i:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/TBT.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/TBT.c.i
 .PHONY : src/libraries/TBT.c.i
 
 src/libraries/TBT.s: src/libraries/TBT.c.s
@@ -196,7 +196,7 @@ src/libraries/TBT.s: src/libraries/TBT.c.s
 
 # target to generate assembly for a file
 src/libraries/TBT.c.s:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/TBT.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/TBT.c.s
 .PHONY : src/libraries/TBT.c.s
 
 src/libraries/binary_search_with_recur.o: src/libraries/binary_search_with_recur.c.o
@@ -205,7 +205,7 @@ src/libraries/binary_search_with_recur.o: src/libraries/binary_search_with_recur
 
 # target to build an object file
 src/libraries/binary_search_with_recur.c.o:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.o
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.o
 .PHONY : src/libraries/binary_search_with_recur.c.o
 
 src/libraries/binary_search_with_recur.i: src/libraries/binary_search_with_recur.c.i
@@ -214,7 +214,7 @@ src/libraries/binary_search_with_recur.i: src/libraries/binary_search_with_recur
 
 # target to preprocess a source file
 src/libraries/binary_search_with_recur.c.i:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.i
 .PHONY : src/libraries/binary_search_with_recur.c.i
 
 src/libraries/binary_search_with_recur.s: src/libraries/binary_search_with_recur.c.s
@@ -223,7 +223,7 @@ src/libraries/binary_search_with_recur.s: src/libraries/binary_search_with_recur
 
 # target to generate assembly for a file
 src/libraries/binary_search_with_recur.c.s:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.s
 .PHONY : src/libraries/binary_search_with_recur.c.s
 
 src/libraries/bubble_sort.o: src/libraries/bubble_sort.c.o
@@ -232,7 +232,7 @@ src/libraries/bubble_sort.o: src/libraries/bubble_sort.c.o
 
 # target to build an object file
 src/libraries/bubble_sort.c.o:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.o
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.o
 .PHONY : src/libraries/bubble_sort.c.o
 
 src/libraries/bubble_sort.i: src/libraries/bubble_sort.c.i
@@ -241,7 +241,7 @@ src/libraries/bubble_sort.i: src/libraries/bubble_sort.c.i
 
 # target to preprocess a source file
 src/libraries/bubble_sort.c.i:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.i
 .PHONY : src/libraries/bubble_sort.c.i
 
 src/libraries/bubble_sort.s: src/libraries/bubble_sort.c.s
@@ -250,7 +250,7 @@ src/libraries/bubble_sort.s: src/libraries/bubble_sort.c.s
 
 # target to generate assembly for a file
 src/libraries/bubble_sort.c.s:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.s
 .PHONY : src/libraries/bubble_sort.c.s
 
 src/libraries/insertion_sort.o: src/libraries/insertion_sort.c.o
@@ -259,7 +259,7 @@ src/libraries/insertion_sort.o: src/libraries/insertion_sort.c.o
 
 # target to build an object file
 src/libraries/insertion_sort.c.o:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.o
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.o
 .PHONY : src/libraries/insertion_sort.c.o
 
 src/libraries/insertion_sort.i: src/libraries/insertion_sort.c.i
@@ -268,7 +268,7 @@ src/libraries/insertion_sort.i: src/libraries/insertion_sort.c.i
 
 # target to preprocess a source file
 src/libraries/insertion_sort.c.i:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.i
 .PHONY : src/libraries/insertion_sort.c.i
 
 src/libraries/insertion_sort.s: src/libraries/insertion_sort.c.s
@@ -277,7 +277,7 @@ src/libraries/insertion_sort.s: src/libraries/insertion_sort.c.s
 
 # target to generate assembly for a file
 src/libraries/insertion_sort.c.s:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.s
 .PHONY : src/libraries/insertion_sort.c.s
 
 src/libraries/quick_sort.o: src/libraries/quick_sort.c.o
@@ -286,7 +286,7 @@ src/libraries/quick_sort.o: src/libraries/quick_sort.c.o
 
 # target to build an object file
 src/libraries/quick_sort.c.o:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/quick_sort.c.o
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/quick_sort.c.o
 .PHONY : src/libraries/quick_sort.c.o
 
 src/libraries/quick_sort.i: src/libraries/quick_sort.c.i
@@ -295,7 +295,7 @@ src/libraries/quick_sort.i: src/libraries/quick_sort.c.i
 
 # target to preprocess a source file
 src/libraries/quick_sort.c.i:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/quick_sort.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/quick_sort.c.i
 .PHONY : src/libraries/quick_sort.c.i
 
 src/libraries/quick_sort.s: src/libraries/quick_sort.c.s
@@ -304,7 +304,7 @@ src/libraries/quick_sort.s: src/libraries/quick_sort.c.s
 
 # target to generate assembly for a file
 src/libraries/quick_sort.c.s:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/quick_sort.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/quick_sort.c.s
 .PHONY : src/libraries/quick_sort.c.s
 
 src/libraries/selection_sort.o: src/libraries/selection_sort.c.o
@@ -313,7 +313,7 @@ src/libraries/selection_sort.o: src/libraries/selection_sort.c.o
 
 # target to build an object file
 src/libraries/selection_sort.c.o:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/selection_sort.c.o
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/selection_sort.c.o
 .PHONY : src/libraries/selection_sort.c.o
 
 src/libraries/selection_sort.i: src/libraries/selection_sort.c.i
@@ -322,7 +322,7 @@ src/libraries/selection_sort.i: src/libraries/selection_sort.c.i
 
 # target to preprocess a source file
 src/libraries/selection_sort.c.i:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/selection_sort.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/selection_sort.c.i
 .PHONY : src/libraries/selection_sort.c.i
 
 src/libraries/selection_sort.s: src/libraries/selection_sort.c.s
@@ -331,7 +331,7 @@ src/libraries/selection_sort.s: src/libraries/selection_sort.c.s
 
 # target to generate assembly for a file
 src/libraries/selection_sort.c.s:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/selection_sort.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/libraries.dir/build.make libraries/CMakeFiles/libraries.dir/src/libraries/selection_sort.c.s
 .PHONY : src/libraries/selection_sort.c.s
 
 # Help Target
@@ -375,6 +375,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

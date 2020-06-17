@@ -17,26 +17,26 @@ int main(void)
     int choice, num; 
     
     do{
-    printf("Choose Options for Programmes in C in following Topic... ");
+    printf("\nChoose Options for Programmes in C in following Topic...\n\n ");
     printf("Press 1 for Anagram \n"); 
     printf("Press 2 for Stacks\n"); 
     printf("Press 3 for Queues\n"); 
-    printf("Linked Lists");
+    printf("\nLinked Lists\n");
     printf("Press 4 for Single Linked List\n"); 
     printf("Press 5 for Double Linked List\n"); 
     printf("Press 6 for Infix to Postfix\n");     
     printf("Press 7 for Infix to Prefix\n"); 
-    printf("Trees");
+    printf("\nTrees\n");
     printf("Press 8 for Binary Search Tree(Non Recursive)\n"); 
     printf("Press 9 for Binary Search Tree(Recursive)\n"); 
     printf("Press 10 for Threaded Binary Tree(TBT)\n"); 
     printf("Press 11 for AVL Tree\n"); 
     printf("Press 12 for Breadth First Search(BFS)\n"); 
     printf("Press 13 for Depth First Search(DFS)\n"); 
-    printf("Method of Searches");
+    printf("\nMethod of Searches\n");
     printf("Press 14 for Linear Search\n"); 
     printf("Press 15 for Binary Search\n"); 
-    printf("Types of Sorting Operation");
+    printf("\nTypes of Sorting Operation\n");
     printf("Press 16 for Selection Sort\n"); 
     printf("Press 17 for Bubble Sort\n"); 
     printf("Press 18 for Quick Sort\n"); 

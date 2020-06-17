@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/codetronaut/Desktop/work/testing/combined_c_proj-master
+CMAKE_SOURCE_DIR = /home/codetronaut/Desktop/work/combined_c_proj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build
+CMAKE_BINARY_DIR = /home/codetronaut/Desktop/work/combined_c_proj/build
 
 # Include any dependencies generated for this target.
 include libraries/CMakeFiles/libraries.dir/depend.make
@@ -79,94 +79,94 @@ include libraries/CMakeFiles/libraries.dir/flags.make
 
 libraries/CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.o: libraries/CMakeFiles/libraries.dir/flags.make
 libraries/CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.o: ../libraries/src/libraries/binary_search_with_recur.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libraries/CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.o"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.o   -c /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/binary_search_with_recur.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/Desktop/work/combined_c_proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libraries/CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.o"
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.o   -c /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/binary_search_with_recur.c
 
 libraries/CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.i"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/binary_search_with_recur.c > CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/binary_search_with_recur.c > CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.i
 
 libraries/CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.s"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/binary_search_with_recur.c -o CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/binary_search_with_recur.c -o CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.s
 
 libraries/CMakeFiles/libraries.dir/src/libraries/AVL.c.o: libraries/CMakeFiles/libraries.dir/flags.make
 libraries/CMakeFiles/libraries.dir/src/libraries/AVL.c.o: ../libraries/src/libraries/AVL.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libraries/CMakeFiles/libraries.dir/src/libraries/AVL.c.o"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libraries.dir/src/libraries/AVL.c.o   -c /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/AVL.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/Desktop/work/combined_c_proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libraries/CMakeFiles/libraries.dir/src/libraries/AVL.c.o"
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libraries.dir/src/libraries/AVL.c.o   -c /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/AVL.c
 
 libraries/CMakeFiles/libraries.dir/src/libraries/AVL.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libraries.dir/src/libraries/AVL.c.i"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/AVL.c > CMakeFiles/libraries.dir/src/libraries/AVL.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/AVL.c > CMakeFiles/libraries.dir/src/libraries/AVL.c.i
 
 libraries/CMakeFiles/libraries.dir/src/libraries/AVL.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libraries.dir/src/libraries/AVL.c.s"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/AVL.c -o CMakeFiles/libraries.dir/src/libraries/AVL.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/AVL.c -o CMakeFiles/libraries.dir/src/libraries/AVL.c.s
 
 libraries/CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.o: libraries/CMakeFiles/libraries.dir/flags.make
 libraries/CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.o: ../libraries/src/libraries/insertion_sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libraries/CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.o"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.o   -c /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/insertion_sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/Desktop/work/combined_c_proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libraries/CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.o"
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.o   -c /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/insertion_sort.c
 
 libraries/CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.i"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/insertion_sort.c > CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/insertion_sort.c > CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.i
 
 libraries/CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.s"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/insertion_sort.c -o CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/insertion_sort.c -o CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.s
 
 libraries/CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.o: libraries/CMakeFiles/libraries.dir/flags.make
 libraries/CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.o: ../libraries/src/libraries/bubble_sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libraries/CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.o"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.o   -c /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/bubble_sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/Desktop/work/combined_c_proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libraries/CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.o"
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.o   -c /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/bubble_sort.c
 
 libraries/CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.i"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/bubble_sort.c > CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/bubble_sort.c > CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.i
 
 libraries/CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.s"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/bubble_sort.c -o CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/bubble_sort.c -o CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.s
 
 libraries/CMakeFiles/libraries.dir/src/libraries/selection_sort.c.o: libraries/CMakeFiles/libraries.dir/flags.make
 libraries/CMakeFiles/libraries.dir/src/libraries/selection_sort.c.o: ../libraries/src/libraries/selection_sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libraries/CMakeFiles/libraries.dir/src/libraries/selection_sort.c.o"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libraries.dir/src/libraries/selection_sort.c.o   -c /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/selection_sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/Desktop/work/combined_c_proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object libraries/CMakeFiles/libraries.dir/src/libraries/selection_sort.c.o"
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libraries.dir/src/libraries/selection_sort.c.o   -c /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/selection_sort.c
 
 libraries/CMakeFiles/libraries.dir/src/libraries/selection_sort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libraries.dir/src/libraries/selection_sort.c.i"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/selection_sort.c > CMakeFiles/libraries.dir/src/libraries/selection_sort.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/selection_sort.c > CMakeFiles/libraries.dir/src/libraries/selection_sort.c.i
 
 libraries/CMakeFiles/libraries.dir/src/libraries/selection_sort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libraries.dir/src/libraries/selection_sort.c.s"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/selection_sort.c -o CMakeFiles/libraries.dir/src/libraries/selection_sort.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/selection_sort.c -o CMakeFiles/libraries.dir/src/libraries/selection_sort.c.s
 
 libraries/CMakeFiles/libraries.dir/src/libraries/quick_sort.c.o: libraries/CMakeFiles/libraries.dir/flags.make
 libraries/CMakeFiles/libraries.dir/src/libraries/quick_sort.c.o: ../libraries/src/libraries/quick_sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object libraries/CMakeFiles/libraries.dir/src/libraries/quick_sort.c.o"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libraries.dir/src/libraries/quick_sort.c.o   -c /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/quick_sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/Desktop/work/combined_c_proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object libraries/CMakeFiles/libraries.dir/src/libraries/quick_sort.c.o"
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libraries.dir/src/libraries/quick_sort.c.o   -c /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/quick_sort.c
 
 libraries/CMakeFiles/libraries.dir/src/libraries/quick_sort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libraries.dir/src/libraries/quick_sort.c.i"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/quick_sort.c > CMakeFiles/libraries.dir/src/libraries/quick_sort.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/quick_sort.c > CMakeFiles/libraries.dir/src/libraries/quick_sort.c.i
 
 libraries/CMakeFiles/libraries.dir/src/libraries/quick_sort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libraries.dir/src/libraries/quick_sort.c.s"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/quick_sort.c -o CMakeFiles/libraries.dir/src/libraries/quick_sort.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/quick_sort.c -o CMakeFiles/libraries.dir/src/libraries/quick_sort.c.s
 
 libraries/CMakeFiles/libraries.dir/src/libraries/TBT.c.o: libraries/CMakeFiles/libraries.dir/flags.make
 libraries/CMakeFiles/libraries.dir/src/libraries/TBT.c.o: ../libraries/src/libraries/TBT.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object libraries/CMakeFiles/libraries.dir/src/libraries/TBT.c.o"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libraries.dir/src/libraries/TBT.c.o   -c /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/TBT.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/codetronaut/Desktop/work/combined_c_proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object libraries/CMakeFiles/libraries.dir/src/libraries/TBT.c.o"
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libraries.dir/src/libraries/TBT.c.o   -c /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/TBT.c
 
 libraries/CMakeFiles/libraries.dir/src/libraries/TBT.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libraries.dir/src/libraries/TBT.c.i"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/TBT.c > CMakeFiles/libraries.dir/src/libraries/TBT.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/TBT.c > CMakeFiles/libraries.dir/src/libraries/TBT.c.i
 
 libraries/CMakeFiles/libraries.dir/src/libraries/TBT.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libraries.dir/src/libraries/TBT.c.s"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/TBT.c -o CMakeFiles/libraries.dir/src/libraries/TBT.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/TBT.c -o CMakeFiles/libraries.dir/src/libraries/TBT.c.s
 
 # Object files for target libraries
 libraries_OBJECTS = \
@@ -190,9 +190,9 @@ libraries/liblibraries.a: libraries/CMakeFiles/libraries.dir/src/libraries/quick
 libraries/liblibraries.a: libraries/CMakeFiles/libraries.dir/src/libraries/TBT.c.o
 libraries/liblibraries.a: libraries/CMakeFiles/libraries.dir/build.make
 libraries/liblibraries.a: libraries/CMakeFiles/libraries.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library liblibraries.a"
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && $(CMAKE_COMMAND) -P CMakeFiles/libraries.dir/cmake_clean_target.cmake
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libraries.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/codetronaut/Desktop/work/combined_c_proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library liblibraries.a"
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && $(CMAKE_COMMAND) -P CMakeFiles/libraries.dir/cmake_clean_target.cmake
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libraries.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libraries/CMakeFiles/libraries.dir/build: libraries/liblibraries.a
@@ -200,10 +200,10 @@ libraries/CMakeFiles/libraries.dir/build: libraries/liblibraries.a
 .PHONY : libraries/CMakeFiles/libraries.dir/build
 
 libraries/CMakeFiles/libraries.dir/clean:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries && $(CMAKE_COMMAND) -P CMakeFiles/libraries.dir/cmake_clean.cmake
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build/libraries && $(CMAKE_COMMAND) -P CMakeFiles/libraries.dir/cmake_clean.cmake
 .PHONY : libraries/CMakeFiles/libraries.dir/clean
 
 libraries/CMakeFiles/libraries.dir/depend:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/codetronaut/Desktop/work/testing/combined_c_proj-master /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries/CMakeFiles/libraries.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/codetronaut/Desktop/work/combined_c_proj /home/codetronaut/Desktop/work/combined_c_proj/libraries /home/codetronaut/Desktop/work/combined_c_proj/build /home/codetronaut/Desktop/work/combined_c_proj/build/libraries /home/codetronaut/Desktop/work/combined_c_proj/build/libraries/CMakeFiles/libraries.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libraries/CMakeFiles/libraries.dir/depend
 

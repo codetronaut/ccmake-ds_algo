@@ -68,10 +68,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/codetronaut/Desktop/work/testing/combined_c_proj-master
+CMAKE_SOURCE_DIR = /home/codetronaut/Desktop/work/combined_c_proj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build
+CMAKE_BINARY_DIR = /home/codetronaut/Desktop/work/combined_c_proj/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/CMakeFiles /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/exec/CMakeFiles/progress.marks
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exec/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/CMakeFiles 0
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/Desktop/work/combined_c_proj/build/CMakeFiles /home/codetronaut/Desktop/work/combined_c_proj/build/exec/CMakeFiles/progress.marks
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exec/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/codetronaut/Desktop/work/combined_c_proj/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exec/clean
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exec/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exec/preinstall
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exec/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exec/preinstall
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exec/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 exec/CMakeFiles/proj.dir/rule:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exec/CMakeFiles/proj.dir/rule
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exec/CMakeFiles/proj.dir/rule
 .PHONY : exec/CMakeFiles/proj.dir/rule
 
 # Convenience name for target.
@@ -142,7 +142,7 @@ proj: exec/CMakeFiles/proj.dir/rule
 
 # fast build rule for target.
 proj/fast:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/build
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/build
 .PHONY : proj/fast
 
 main.o: main.c.o
@@ -151,7 +151,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/main.c.o
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -160,7 +160,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/main.c.i
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -169,7 +169,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(MAKE) $(MAKESILENT) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/main.c.s
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(MAKE) $(MAKESILENT) -f exec/CMakeFiles/proj.dir/build.make exec/CMakeFiles/proj.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -195,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/codetronaut/Desktop/work/testing/combined_c_proj-master/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/codetronaut/Desktop/work/combined_c_proj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

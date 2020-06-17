@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src 
+C_INCLUDES = -I/home/codetronaut/Desktop/work/combined_c_proj/libraries/src 
 

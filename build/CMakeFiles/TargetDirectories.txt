@@ -1,8 +1,8 @@
-/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/CMakeFiles/rebuild_cache.dir
-/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/CMakeFiles/edit_cache.dir
-/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries/CMakeFiles/rebuild_cache.dir
-/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries/CMakeFiles/edit_cache.dir
-/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries/CMakeFiles/libraries.dir
-/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/exec/CMakeFiles/rebuild_cache.dir
-/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/exec/CMakeFiles/edit_cache.dir
-/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/exec/CMakeFiles/proj.dir
+/home/codetronaut/Desktop/work/combined_c_proj/build/CMakeFiles/rebuild_cache.dir
+/home/codetronaut/Desktop/work/combined_c_proj/build/CMakeFiles/edit_cache.dir
+/home/codetronaut/Desktop/work/combined_c_proj/build/libraries/CMakeFiles/rebuild_cache.dir
+/home/codetronaut/Desktop/work/combined_c_proj/build/libraries/CMakeFiles/edit_cache.dir
+/home/codetronaut/Desktop/work/combined_c_proj/build/libraries/CMakeFiles/libraries.dir
+/home/codetronaut/Desktop/work/combined_c_proj/build/exec/CMakeFiles/rebuild_cache.dir
+/home/codetronaut/Desktop/work/combined_c_proj/build/exec/CMakeFiles/edit_cache.dir
+/home/codetronaut/Desktop/work/combined_c_proj/build/exec/CMakeFiles/proj.dir

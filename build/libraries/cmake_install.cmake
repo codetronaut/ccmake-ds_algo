@@ -1,4 +1,4 @@
-# Install script for directory: /home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries
+# Install script for directory: /home/codetronaut/Desktop/work/combined_c_proj/libraries
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
