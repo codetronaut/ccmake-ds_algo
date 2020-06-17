@@ -2,10 +2,10 @@
 
 #include "libr.h"
 
-void quick_sort(int[],int,int);
+void quick_Sort(int[],int,int);
 int partition(int[],int,int);
 
-int quick_sort()
+void quick_sort()
 {
 	int a[30],n,i;
 	printf("Enter number of elements: ");
@@ -20,10 +20,9 @@ int quick_sort()
 	for(i=0;i<n;i++)
 		printf("%d ",a[i]);
 
-	return 0;
 }
 
-void quick_sort(int a[],int l,int u)
+void  quick_Sort(int a[],int l,int u)
 {
 	int j;
 	if(l<u)

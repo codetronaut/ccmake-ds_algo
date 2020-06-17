@@ -26,5 +26,4 @@ void bubble_sort()
     {
         printf("%d\t",a[i]);
     }
-    getch();
 }

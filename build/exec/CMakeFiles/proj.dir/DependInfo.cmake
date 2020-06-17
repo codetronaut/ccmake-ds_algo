@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/codetronaut/root_cernv7/assign_progs/proj/exec/main.c" "/home/codetronaut/root_cernv7/assign_progs/proj/build/exec/CMakeFiles/proj.dir/main.c.o"
+  "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/exec/main.c" "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/exec/CMakeFiles/proj.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/codetronaut/root_cernv7/assign_progs/proj/build/libraries/CMakeFiles/libraries.dir/DependInfo.cmake"
+  "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries/CMakeFiles/libraries.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

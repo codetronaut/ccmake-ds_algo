@@ -1,0 +1,99 @@
+.
+├── build
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles
+│   │   ├── 3.17.3
+│   │   │   ├── CMakeCCompiler.cmake
+│   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   ├── CMakeSystem.cmake
+│   │   │   └── CompilerIdC
+│   │   │       ├── a.out
+│   │   │       ├── CMakeCCompilerId.c
+│   │   │       └── tmp
+│   │   ├── cmake.check_cache
+│   │   ├── CMakeDirectoryInformation.cmake
+│   │   ├── CMakeOutput.log
+│   │   ├── CMakeTmp
+│   │   ├── Makefile2
+│   │   ├── Makefile.cmake
+│   │   ├── progress.marks
+│   │   └── TargetDirectories.txt
+│   ├── cmake_install.cmake
+│   ├── exec
+│   │   ├── CMakeFiles
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── progress.marks
+│   │   │   └── proj.dir
+│   │   │       ├── build.make
+│   │   │       ├── C.includecache
+│   │   │       ├── cmake_clean.cmake
+│   │   │       ├── DependInfo.cmake
+│   │   │       ├── depend.internal
+│   │   │       ├── depend.make
+│   │   │       ├── flags.make
+│   │   │       ├── link.txt
+│   │   │       ├── main.c.o
+│   │   │       └── progress.make
+│   │   ├── cmake_install.cmake
+│   │   ├── Makefile
+│   │   └── proj
+│   ├── libraries
+│   │   ├── CMakeFiles
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── libraries.dir
+│   │   │   │   ├── build.make
+│   │   │   │   ├── C.includecache
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── cmake_clean_target.cmake
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── depend.internal
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── src
+│   │   │   │       └── libraries
+│   │   │   │           ├── AVL.c.o
+│   │   │   │           ├── binary_search_with_recur.c.o
+│   │   │   │           ├── bubble_sort.c.o
+│   │   │   │           ├── insertion_sort.c.o
+│   │   │   │           ├── quick_sort.c.o
+│   │   │   │           ├── selection_sort.c.o
+│   │   │   │           └── TBT.c.o
+│   │   │   └── progress.marks
+│   │   ├── cmake_install.cmake
+│   │   ├── liblibraries.a
+│   │   └── Makefile
+│   └── Makefile
+├── CMakeLists.txt
+├── exec
+│   ├── CMakeLists.txt
+│   └── main.c
+├── libraries
+│   ├── CMakeLists.txt
+│   └── src
+│       └── libraries
+│           ├── AVL.c
+│           ├── binary_search_with_recur.c
+│           ├── bubble_sort.c
+│           ├── insertion_sort.c
+│           ├── libr.h
+│           ├── quick_sort.c
+│           ├── selection_sort.c
+│           ├── TBT.c
+│           └── Will_Add
+│               ├── anagram.c
+│               ├── BST_non_recursive.c
+│               ├── circular_queue.c
+│               ├── DOUBLE.c
+│               ├── general_queue.c
+│               ├── in_to_post.c
+│               ├── in_to_prefix.c
+│               ├── LINK.c
+│               ├── shell_sort.c
+│               └── stack_using_linkedlist.c
+├── LICENSE
+├── project_tree
+└── README.md
+
+19 directories, 77 files

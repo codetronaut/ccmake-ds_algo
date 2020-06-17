@@ -115,7 +115,7 @@ void preorder(struct node_avl* root)
 	}
 }
 
-int AVL()
+void AVL()
 {
 	struct node_avl* root = NULL;
 	int n,data;
@@ -129,5 +129,5 @@ int AVL()
 
 	preorder(root);
 
-	return 0;
+	//return 0;
 }

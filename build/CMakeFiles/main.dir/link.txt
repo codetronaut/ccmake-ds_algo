@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/main.dir/exec/main.c.o  -o main 

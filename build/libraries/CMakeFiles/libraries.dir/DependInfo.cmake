@@ -4,9 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/codetronaut/root_cernv7/assign_progs/proj/libraries/src/libraries/BST_non_recursive.c" "/home/codetronaut/root_cernv7/assign_progs/proj/build/libraries/CMakeFiles/libraries.dir/src/libraries/BST_non_recursive.c.o"
-  "/home/codetronaut/root_cernv7/assign_progs/proj/libraries/src/libraries/circular_queue.c" "/home/codetronaut/root_cernv7/assign_progs/proj/build/libraries/CMakeFiles/libraries.dir/src/libraries/circular_queue.c.o"
-  "/home/codetronaut/root_cernv7/assign_progs/proj/libraries/src/libraries/general_queue.c" "/home/codetronaut/root_cernv7/assign_progs/proj/build/libraries/CMakeFiles/libraries.dir/src/libraries/general_queue.c.o"
+  "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/AVL.c" "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries/CMakeFiles/libraries.dir/src/libraries/AVL.c.o"
+  "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/TBT.c" "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries/CMakeFiles/libraries.dir/src/libraries/TBT.c.o"
+  "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/binary_search_with_recur.c" "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries/CMakeFiles/libraries.dir/src/libraries/binary_search_with_recur.c.o"
+  "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/bubble_sort.c" "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries/CMakeFiles/libraries.dir/src/libraries/bubble_sort.c.o"
+  "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/insertion_sort.c" "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries/CMakeFiles/libraries.dir/src/libraries/insertion_sort.c.o"
+  "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/quick_sort.c" "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries/CMakeFiles/libraries.dir/src/libraries/quick_sort.c.o"
+  "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/libraries/src/libraries/selection_sort.c" "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries/CMakeFiles/libraries.dir/src/libraries/selection_sort.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

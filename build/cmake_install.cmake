@@ -1,4 +1,4 @@
-# Install script for directory: /home/codetronaut/root_cernv7/assign_progs/proj
+# Install script for directory: /home/codetronaut/Desktop/work/testing/combined_c_proj-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
+  set(CMAKE_INSTALL_SO_NO_EXE "0")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/codetronaut/root_cernv7/assign_progs/proj/build/libraries/cmake_install.cmake")
-  include("/home/codetronaut/root_cernv7/assign_progs/proj/build/exec/cmake_install.cmake")
+  include("/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/libraries/cmake_install.cmake")
+  include("/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/exec/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/codetronaut/root_cernv7/assign_progs/proj/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/codetronaut/Desktop/work/testing/combined_c_proj-master/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

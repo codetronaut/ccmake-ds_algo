@@ -95,7 +95,6 @@ void inorder()
 void TBT()
 {
 	int ch=0;
-	clrscr();
 	root=NULL;
 	while(ch!=3)
 	{
@@ -118,5 +117,4 @@ void TBT()
 			printf("error\n");
 		}
 	}
-	getch();
 }

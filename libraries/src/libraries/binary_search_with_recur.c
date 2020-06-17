@@ -5,7 +5,7 @@
 void binary_search(int [], int, int, int);
 void bubble_sort(int [], int);
 
-int binary_search_with_recur()
+void binary_search_with_recur()
 {
     int k, n, i;
     int list[25];

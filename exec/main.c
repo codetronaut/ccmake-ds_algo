@@ -51,12 +51,12 @@ int main(void)
     switch (choice) { 
     case 1: { 
         printf("Anagram\n"); 
-        anagram();
+        //anagram();
         break; 
     } 
     case 2: { 
         printf("Stacks\n"); 
-        stack_n();
+        //stack_n();
         break; 
     } 
     case 3: { 
@@ -66,11 +66,11 @@ int main(void)
         scanf("%d",&inner_choice);
         if(inner_choice == 1)
         {
-            circular_queue();
+            //circular_queue();
         }
         else if(inner_choice == 2)
         {
-            general_queue();
+            //general_queue();
         }
         else
         {
@@ -83,27 +83,27 @@ int main(void)
     } 
     case 4: { 
         printf("Single Linked List\n"); 
-        SLL();
+        //SLL();
         break; 
     } 
     case 5: { 
         printf("Double Linked List\n"); 
-        DLL();
+        //DLL();
         break; 
     } 
     case 6: { 
         printf("Infix to Postfix\n"); 
-        in_to_post();
+        //in_to_post();
         break; 
     }     
     case 7: { 
         printf("Infix to Prefix\n"); 
-        in_to_pre();
+        //in_to_pre();
         break; 
     }
     case 8:{
         printf("Binary Search Tree(Non Recursive)\n"); 
-        BST_NR();
+        //BST_NR();
         break;
     }    
     case 9: { 
@@ -154,6 +154,7 @@ int main(void)
     } 
     case 18: { 
         printf("Quick Sort\n"); 
+        quick_sort();
 
         break; 
     } 
@@ -164,7 +165,7 @@ int main(void)
     }   
     case 20: { 
         printf("Shell Sort\n"); 
-        ShellSort();
+       // ShellSort();
         break; 
     }      
     default: 
