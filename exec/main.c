@@ -8,7 +8,7 @@ int input()
     scanf("%d", &number); 
     return (number); 
 } 
-
+void exit(int return_code);
 
 int main(void)
 {
@@ -21,11 +21,18 @@ int main(void)
     printf("Press 1 for Anagram \n"); 
     printf("Press 2 for Stacks\n"); 
     printf("Press 3 for Queues\n"); 
+    
+    printf("Graphics\n"); 
+    //https://stackoverflow.com/questions/57442902/undefined-reference-to-graphics-h-functions-in-ubuntu-19-04-in-clion-ide
+
+    printf("Press 21 for Bresenham  Line Drawing Algortihm \n"); 
+
     printf("\nLinked Lists\n");
     printf("Press 4 for Single Linked List\n"); 
     printf("Press 5 for Double Linked List\n"); 
     printf("Press 6 for Infix to Postfix\n");     
     printf("Press 7 for Infix to Prefix\n"); 
+    
     printf("\nTrees\n");
     printf("Press 8 for Binary Search Tree(Non Recursive)\n"); 
     printf("Press 9 for Binary Search Tree(Recursive)\n"); 
@@ -33,6 +40,7 @@ int main(void)
     printf("Press 11 for AVL Tree\n"); 
     printf("Press 12 for Breadth First Search(BFS)\n"); 
     printf("Press 13 for Depth First Search(DFS)\n"); 
+    
     printf("\nMethod of Searches\n");
     printf("Press 14 for Linear Search\n"); 
     printf("Press 15 for Binary Search\n"); 
@@ -42,6 +50,7 @@ int main(void)
     printf("Press 18 for Quick Sort\n"); 
     printf("Press 19 for Insertion Sort\n"); 
     printf("Press 20 for Shell Sort\n");
+    printf("Press 0 for exit...");
     
 
 
@@ -168,6 +177,17 @@ int main(void)
        // ShellSort();
         break; 
     }      
+//     case 21: { 
+//         printf("Bresenham  Line Drawing Algortihm\n"); 
+//        bresenhem();
+//         break; 
+//     }      
+    case 0: { 
+        printf("Exiting...\n"); 
+        exit(0);
+       // ShellSort();
+        break; 
+    }      
     default: 
         printf("wrong Input\n"); 
         break;
@@ -175,7 +195,6 @@ int main(void)
     }while(choice !=5 );
     printf("BYE!");
     return 0; 
- 
     
  }
     

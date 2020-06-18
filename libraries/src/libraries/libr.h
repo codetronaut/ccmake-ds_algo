@@ -15,3 +15,4 @@ void insertion_sort();
 void bubble_sort();
 void in_to_post();
 void in_to_pre();
+void  bresenhem();

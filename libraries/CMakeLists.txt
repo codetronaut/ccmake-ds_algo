@@ -20,6 +20,9 @@ add_library(
 #     src/libraries/stack_using_linkedlist.c
     src/libraries/TBT.c
     
+    #new
+#     src/libraries/bresenhem.c
+    
 
     src/libraries/libr.h
 

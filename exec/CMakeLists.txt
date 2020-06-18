@@ -1,11 +1,14 @@
-add_executable(proj main.c)
+set(CMAKE_C_STANDARD 11)
 
-# detect operating system and host processor
-# message(STATUS "ccmake-algo_ds Project")
-message(STATUS "We are on a ${CMAKE_SYSTEM_NAME} system")
-message(STATUS "The host processor is ${CMAKE_HOST_SYSTEM_PROCESSOR}")
+include_directories("//usr//local//lib//libgraph-1.0.2//")
+
+build_command("lgraph")
+
+add_executable(proj main.c)
+# target_link_libraries(libgraph -lpthread)
 
 target_link_libraries(proj PRIVATE libraries)
+
 
 set(VERSION_MAJOR 1)
 set(VERSION_MINOR 0)
