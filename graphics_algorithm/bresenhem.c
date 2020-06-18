@@ -1,3 +1,4 @@
+//C program for Bresenhem Line generation Algorithm
 #include<stdio.h>
 #include<graphics.h>
  void wait_for_char()
@@ -42,7 +43,7 @@ void drawline(int x0, int y0, int x1, int y1)
 int main()
 {
 	int gdriver=DETECT, gmode, error, x0, y0, x1, y1;
-	initgraph(&gdriver, &gmode, "c:\\turboc3\\bgi");
+	initgraph(&gdriver, &gmode, "");
  
 	printf("Enter co-ordinates of first point: ");
 	scanf("%d%d", &x0, &y0);

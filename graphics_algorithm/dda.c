@@ -44,13 +44,11 @@ void DDA(int X0, int Y0, int X1, int Y1)
 	} 
 } 
 
-// Driver program 
 int main() 
 { 
 	int gd = DETECT, gm; 
 
-	// Initialize graphics function 
-	initgraph (&gd, &gm, ""); 
+    initgraph (&gd, &gm, ""); 
 	int X0 = 2, Y0 = 2, X1 = 14, Y1 = 16; 
 	DDA(2, 2, 14, 16); 
         wait_for_char();
