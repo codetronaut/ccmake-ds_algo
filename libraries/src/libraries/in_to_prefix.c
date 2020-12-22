@@ -3,20 +3,35 @@
 
 #include "libr.h"
 
-char inf[30],post[30],stk[30],ch,ch1;
-int top = -1, i = 0, j = 0;
+char *strrev(char *str)
+{
+      char *p1, *p2;
+
+      if (! str || ! *str)
+            return str;
+      for (p1 = str, p2 = str + strlen(str) - 1; p2 > p1; ++p1, --p2)
+      {
+            *p1 ^= *p2;
+            *p2 ^= *p1;
+            *p1 ^= *p2;
+      }
+      return str;
+}
+
+char inf[30],post[30],stack[30],ch,ch1;
+int stk_top = -1, i = 0, j = 0;
 
 void push()
 {
-	top++;
-	stk[top] = ch;
+	stk_top++;
+	stack[stk_top] = ch;
 }
 
 char pop()
 {
 	char ch2;
-	ch2 = stk[top];
-	top--;
+	ch2 = stack[stk_top];
+	stk_top--;
 	return ch2;
 }
 
@@ -64,7 +79,7 @@ void in_to_pre()
 			case '-' :
 			case '*' :
 			case '/' :
-			case '^' :	while(prio(ch) < prio(stk[top]))
+			case '^' :	while(prio(ch) < prio(stack[stk_top]))
 						{
 							post[j] = pop();
 							j++;
@@ -79,11 +94,11 @@ void in_to_pre()
 		}
 		i++;
 	}
-	while(top!=-1)
+	while(stk_top!=-1)
 	{
 		post[j] = pop();
 		j++;
 	}
 	printf("Prefix = %s",strrev(post));
-	getch();
+	 
 }

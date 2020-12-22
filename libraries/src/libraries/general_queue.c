@@ -3,50 +3,50 @@
 #include "libr.h"
 
 
-int rear=-1,front=-1,que[5];
-void dque()
+int back=-1,fore_part=-1,queue[5];
+void deque()
 {
- if(rear==-1)
+ if(back==-1)
  {
     printf("underflow \n");
  }
  else
  {
-    front++;
+    fore_part++;
     printf("element deleted\n");
   }
 }
-void eque()
+void enter_que()
 {
-    if(rear==4)
+    if(back==4)
     {
     printf("overflow\n");
     }
     else
     {
-        if(rear==-1&&front==-1)
+        if(back==-1&&fore_part==-1)
         {
-        front++;
-        rear++;
+        fore_part++;
+        back++;
         printf("enter a number\n");
-        scanf("%d",&que[rear]);
+        scanf("%d",&queue[back]);
         }
         else
         {
-            rear++;
+            back++;
             printf("enter a number\n");
-            scanf("%d",&que[rear]);
+            scanf("%d",&queue[back]);
         }
     }
 }
-void display()
+void disp()
 {
  int i;
  printf("display function\n");
- for(i=front;i<=rear;i++)
+ for(i=fore_part;i<=back;i++)
  {
    printf("number is");
-   printf("%d",que[i]);
+   printf("%d",queue[i]);
    printf("\n");
   }
  }
@@ -60,15 +60,15 @@ void general_queue()
         scanf("%d",&ch);
         if(ch==1)
         {
-            eque();
+           enter_que();
         }
         else if(ch==2)
         {
-            dque();
+            deque();
         }
         else if(ch==3)
         {
-            display();
+            disp();
         }
         else if(ch==4)
         {

@@ -21,7 +21,6 @@ void  bresenhem()
  void wait_for_char()
 {
 
-    //Wait for a key press
     int in = 0;
 
     while (in == 0) {

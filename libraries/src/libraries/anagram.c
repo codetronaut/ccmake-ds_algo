@@ -7,6 +7,9 @@ int m,n;
 char string1[26],string2[26];
 void check();
 void sort();
+void input();
+void length();
+
 void input()
 {
     printf("Enter the elements: ");
@@ -68,8 +71,8 @@ void check()
 }
 void anagram()
 {
-    input();
-    length();
-    getch();
+	printf("Let's Find Out!\n:");	
+	input();
+    	length();
 }
 

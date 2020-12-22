@@ -1,1 +1,1 @@
-/usr/bin/cc    CMakeFiles/proj.dir/main.c.o  -o proj  ../libraries/liblibraries.a 
+/usr/bin/cc CMakeFiles/proj.dir/main.c.o -o proj  ../libraries/liblibraries.a 

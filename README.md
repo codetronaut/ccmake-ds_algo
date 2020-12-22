@@ -1,6 +1,6 @@
-# ccmake-ds_algo
+## ccmake-ds_algo
 
-This project aims to ease the work of making test case for the alraedy existing algorithms and methods. I faced a lot of issues in start learning a project and permutate it's test cases for my own implementation of a already existing algorithms. This project is a dynamic build which accept a variety of algo and give it's combined output.
+This project aims to ease the work of making test case for the alraedy existing algorithms and methods. I faced a lot of issues in start learning a project and permutate it's test cases for my own implementation of a already existing algorithms. This project is a dynamic build which accept a variety of algo and give it's combined output. Currenty it's in development phase and I am adding new things (not on a regular basis but) according to available time.
 
 ### Prerequisites
 The basic requirements are:
@@ -23,6 +23,7 @@ First we need to check out the git repo:
 ❯ cd ~/work
 ❯ git clone https://github.com/codetronaut/ccmake-ds_algo.git
 ❯ cd ccmake-ds_algo
+❯ mkdir build 
 ❯ cd build
 ❯ cmake ..
 ❯ make

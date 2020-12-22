@@ -6,3 +6,11 @@
 
 #IncludeRegexTransform: 
 
+/home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/insertion_sort.c
+stdio.h
+-
+libr.h
+/home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/libr.h
+
+/home/codetronaut/Desktop/work/combined_c_proj/libraries/src/libraries/libr.h
+

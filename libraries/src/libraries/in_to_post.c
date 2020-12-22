@@ -2,14 +2,28 @@
 
 #include "libr.h"
 
-char in[30],post[30],stk[30],ch,ch1;
+char in[30],post_fix[30],stk[30],ch,ch1;
 int top=-1,i=0,j=0;
 
 void push(char);
 char pop();
 int prior(char);
 
-void in_to_post()
+void push(char ch)
+{
+    top++;
+    stk[top]=ch;
+}
+
+char pop()
+{
+    char ch2;
+    ch2=stk[top];
+    top--;
+    return ch2;
+}
+
+void in_to_post_fix()
 {
     printf("Enter Infix Expression: ");
     scanf("%s", &in);
@@ -24,7 +38,7 @@ void in_to_post()
             case ')': ch1=pop();
                 while(ch1!='(')
                 {
-                    post[j]=ch1;
+                    post_fix[j]=ch1;
                     j++;
                     ch1=pop();
                 }
@@ -36,37 +50,22 @@ void in_to_post()
             case '^':
                 while(prior(ch)<=prior(stk[top]))
                 {
-                    post[j]=pop();
+                    post_fix[j]=pop();
                     j++;
                 }
                 push(ch);
                 break;
-            default: post[j]=ch;
+            default: post_fix[j]=ch;
                 j++;
         }
         i++;
     }
     while(top!=-1)
     {
-        post[j]=pop();
+        post_fix[j]=pop();
         j++;
     }
-    printf("Postfix = %s", post);
-    getch();
-}
-
-void push(char ch)
-{
-    top++;
-    stk[top]=ch;
-}
-
-char pop()
-{
-    char ch2;
-    ch2=stk[top];
-    top--;
-    return ch2;
+    printf("Postfix = %s", post_fix);
 }
 
 int prior(char ch2)

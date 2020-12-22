@@ -7,102 +7,102 @@ struct tbtnode
 {
 	int lbit,rbit,data;
 	struct tbtnode *lc,*rc;
-}*root,*head,*temp,*new1,*temp1;
-void create()
+}*root_key,*head,*tmp,*new_k,*tmp1;
+void create_tbt()
 {
-	new1=(struct tbtnode*)malloc(sizeof(struct tbtnode));
+	new_k=(struct tbtnode*)malloc(sizeof(struct tbtnode));
 	printf("enter data\n");
-	scanf("%d",&new1->data);
-	if(root==NULL)
+	scanf("%d",&new_k->data);
+	if(root_key==NULL)
 	{
-		root=new1;
-		head->lc=root;
-		new1->lc=head;
-		new1->rc=head;
-		new1->lbit=1;
-		new1->rbit=1;
+		root_key=new_k;
+		head->lc=root_key;
+		new_k->lc=head;
+		new_k->rc=head;
+		new_k->lbit=1;
+		new_k->rbit=1;
 		head->lbit=0;
 		head->rbit=1;
 	}
 	else
 	{
-		temp=root;
+		tmp=root_key;
 		while(1)
 		{
-			if(temp->data<new1->data)
+			if(tmp->data<new_k->data)
 			{
-				if(temp->rbit==1)
+				if(tmp->rbit==1)
 				{
-					new1->rc=temp->rc;
-					new1->lc=temp;
-					temp->rc=new1;
-					temp->rbit=0;
-					new1->lbit=1;
-					new1->rbit=1;
+					new_k->rc=tmp->rc;
+					new_k->lc=tmp;
+					tmp->rc=new_k;
+					tmp->rbit=0;
+					new_k->lbit=1;
+					new_k->rbit=1;
 					break;
 				}
 				else
 				{
-					temp=temp->rc;
+					tmp=tmp->rc;
 				}
 			}
-			else if(temp->data>new1->data)
+			else if(tmp->data>new_k->data)
 			{
-				if(temp->lbit==1)
+				if(tmp->lbit==1)
 				{
-					new1->lc=temp->lc;
-					new1->rc=temp;
-					temp->lc=new1;
-					temp->lbit=0;
-					new1->lbit=1;
-					new1->rbit=1;
+					new_k->lc=tmp->lc;
+					new_k->rc=tmp;
+					tmp->lc=new_k;
+					tmp->lbit=0;
+					new_k->lbit=1;
+					new_k->rbit=1;
 					break;
 				}
 				else
 				{
-					temp=temp->lc;
+					tmp=tmp->lc;
 				}
 			}
 		}
 	}
 }
-struct tbtnode* leftmost(struct tbtnode *temp)
+struct tbtnode* leftmost(struct tbtnode *tmp)
 {
-	while(temp->lbit==0)
+	while(tmp->lbit==0)
 	{
-		temp=temp->lc;
+		tmp=tmp->lc;
 	}
-	return temp;
+	return tmp;
 }
 void inorder()
 {
-	temp1=root;
-	temp1=leftmost(temp1);
-	while(temp1!=head)
+	tmp1=root_key;
+	tmp1=leftmost(tmp1);
+	while(tmp1!=head)
 	{
-		printf("\t%d",temp1->data);
+		printf("\t%d",tmp1->data);
 
-		if(temp1->rbit==0)
+		if(tmp1->rbit==0)
 		{
-			temp1=leftmost(temp1->rc);
+			tmp1=leftmost(tmp1->rc);
 		}
 		else
 		{
-			temp1=temp1->rc;
+			tmp1=tmp1->rc;
 		}
 	}
 }
 void TBT()
 {
 	int ch=0;
-	root=NULL;
+	root_key=NULL;
 	while(ch!=3)
 	{
 		printf("\n1)create 2)display 3) exit\n");
 		scanf("%d",&ch);
 		if(ch==1)
 		{
-			create();
+			create_tbt();
 		}
 		else if(ch==2)
 		{

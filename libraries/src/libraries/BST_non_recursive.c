@@ -16,11 +16,15 @@ int top=-1;
 void create()
 {
     new1= (struct BSTnode*)malloc(sizeof(struct BSTnode));
+    
+    if (!new1)
+	    return;
+
     printf("Enter data: ");
     scanf("%d", &new1->data);
     new1->lc=NULL;
     new1->rc=NULL;
-    if(root==NULL)
+    if(!root)
     {
         root=new1;
     }
@@ -29,25 +33,25 @@ void create()
         temp=root;
         while(0!=1)
         {
-            if(temp->data<new1->data)
+            if(temp->data < new1->data)
             {
-                if(temp->rc==NULL)
+                if(!temp->rc)
                 {
-                    temp->rc=new1;
+                    temp->rc = new1;
                     break;
                 }
                 else
-                    temp=temp->rc;
+                    temp = temp->rc;
             }
-            if(temp->data>new1->data)
+            if(temp->data > new1->data)
             {
-                if(temp->lc==NULL)
+                if(!temp->lc)
                 {
-                    temp->lc=new1;
+                    temp->lc = new1;
                     break;
                 }
                 else
-                    temp=temp->lc;
+                    temp = temp->lc;
             }
         }
     }

@@ -1,10 +1,8 @@
-//C program for Bresenhem Line generation Algorithm
+//C program Implementation for Bresenhem Line generation Algorithm
 #include<stdio.h>
 #include<graphics.h>
- void wait_for_char()
+void wait_for_char()
 {
-
-    //Wait for a key press
     int in = 0;
 
     while (in == 0) {

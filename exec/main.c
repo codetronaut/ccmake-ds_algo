@@ -1,13 +1,14 @@
-# include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include "libraries/libr.h"
 
-int input() 
+int user_io() 
 { 
     int number; 
     scanf("%d", &number); 
-    return (number); 
+    return number; 
 } 
+
 void exit(int return_code);
 
 int main(void)
@@ -55,12 +56,12 @@ int main(void)
 
 
     printf("Enter your choice:\n"); 
-    choice = input(); 
+    choice = user_io(); 
     
     switch (choice) { 
     case 1: { 
         printf("Anagram\n"); 
-        //anagram();
+        anagram();
         break; 
     } 
     case 2: { 
@@ -75,11 +76,11 @@ int main(void)
         scanf("%d",&inner_choice);
         if(inner_choice == 1)
         {
-            //circular_queue();
+            circular_queue();
         }
         else if(inner_choice == 2)
         {
-            //general_queue();
+            general_queue();
         }
         else
         {
@@ -107,12 +108,12 @@ int main(void)
     }     
     case 7: { 
         printf("Infix to Prefix\n"); 
-        //in_to_pre();
+        in_to_pre();
         break; 
     }
     case 8:{
         printf("Binary Search Tree(Non Recursive)\n"); 
-        //BST_NR();
+        BST_NR();
         break;
     }    
     case 9: { 
